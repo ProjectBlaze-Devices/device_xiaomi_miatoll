@@ -39,6 +39,9 @@ debug.cpurend.vsync=false
 debug.renderengine.backend=skiaglthreaded
 debug.hwui.renderer=skiagl
 
+# Storage.xml moment
+persist.sys.binary_xml=false
+
 # WFD
 persist.debug.wfd.enable=1
 vendor.sys.video.disable.ubwc=1
