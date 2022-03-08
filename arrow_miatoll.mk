@@ -11,6 +11,9 @@ $(call inherit-product, device/xiaomi/miatoll/device.mk)
 $(call inherit-product, vendor/arrow/config/common.mk)
 $(call inherit-product-if-exists, vendor/lawnchair/lawnchair.mk)
 
+# Quick Tap
+TARGET_SUPPORTS_QUICK_TAP := true
+
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 
