@@ -15,6 +15,11 @@
 $(call inherit-product, device/xiaomi/miatoll/device.mk)
 $(call inherit-product, vendor/blaze/config/common_full_phone.mk)
 
+# Blaze Official Stuff
+BLAZE_BUILD_TYPE := OFFICIAL
+BLAZE_MAINTAINER := Sayan Sarkar(@SKORPION_29)
+TARGET_USE_PIXEL_CHARGER := true
+
 # Face Unlock
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
