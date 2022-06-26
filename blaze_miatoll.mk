@@ -17,7 +17,7 @@ $(call inherit-product, vendor/blaze/config/common_full_phone.mk)
 
 # Blaze Official Stuff
 BLAZE_BUILD_TYPE := OFFICIAL
-BLAZE_MAINTAINER := SayanSarkar(@SKORPION_29)
+BLAZE_MAINTAINER := SKORPION_29
 TARGET_USE_PIXEL_CHARGER := true
 TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
 
