@@ -65,6 +65,9 @@ function blob_fixup() {
         system_ext/lib64/libwfdnative.so)
             "${PATCHELF}" --remove-needed "android.hidl.base@1.0.so" "${2}"
             ;;
+        vendor/lib64/camera/components/com.qti.node.watermark.so)
+            "${PATCHELF}" --add-needed "libwatermark_shim.so" "${2}"
+            ;;
         # Use VNDK 32 libhidlbase
         vendor/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so)
             "${PATCHELF_0_8}" --remove-needed "libhidlbase.so" "${2}"
