@@ -36,12 +36,6 @@ debug.renderengine.backend=skiaglthreaded
 debug.hwui.renderer=skiagl
 renderthread.skia.reduceopstasksplitting=true
 
-# Spark-OS
-ro.spark.device.name=Miatoll
-ro.spark.group.url=https://t.me/SparkOSMiatoll
-ro.spark.maintainer=popoASM
-ro.spark.maintainer.username=popoASM
-
 # WFD
 persist.debug.wfd.enable=1
 vendor.sys.video.disable.ubwc=1
